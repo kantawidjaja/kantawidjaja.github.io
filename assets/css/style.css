@@ -1,4 +1,369 @@
 @charset "UTF-8";
+.btn {
+  border-radius: 0;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  color: #EEEEEE;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+}
+.btn-primary:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #334257;
+  z-index: -2;
+}
+.btn-primary:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #171d27;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.btn-primary:hover {
+  color: #EEEEEE;
+}
+.btn-primary:hover:before {
+  width: 100%;
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  color: #EEEEEE;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+}
+.btn-secondary:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #476072;
+  z-index: -2;
+}
+.btn-secondary:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #2a3843;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.btn-secondary:hover {
+  color: #EEEEEE;
+}
+.btn-secondary:hover:before {
+  width: 100%;
+}
+
+.btn-success {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  color: #EEEEEE;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+}
+.btn-success:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0C7B93;
+  z-index: -2;
+}
+.btn-success:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #06404c;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.btn-success:hover {
+  color: #EEEEEE;
+}
+.btn-success:hover:before {
+  width: 100%;
+}
+
+.btn-info {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  color: #EEEEEE;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+}
+.btn-info:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #CFD8DC;
+  z-index: -2;
+}
+.btn-info:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #a3b4bc;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.btn-info:hover {
+  color: #EEEEEE;
+}
+.btn-info:hover:before {
+  width: 100%;
+}
+
+.btn-warning {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  color: #EEEEEE;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+}
+.btn-warning:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d08b32;
+  z-index: -2;
+}
+.btn-warning:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #946222;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.btn-warning:hover {
+  color: #EEEEEE;
+}
+.btn-warning:hover:before {
+  width: 100%;
+}
+
+.btn-danger {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  color: #EEEEEE;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+}
+.btn-danger:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #cb1a47;
+  z-index: -2;
+}
+.btn-danger:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #87112f;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.btn-danger:hover {
+  color: #EEEEEE;
+}
+.btn-danger:hover:before {
+  width: 100%;
+}
+
+.card {
+  border-radius: 0;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+
+h1, .h1 {
+  font-size: 5rem;
+  letter-spacing: 10px;
+}
+
+h2, .h2 {
+  font-size: 2.25rem;
+}
+
+h3, .h3 {
+  font-size: 2rem;
+}
+
+h4, .h4 {
+  font-size: 1.75rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  font-size: 1rem;
+}
+
+small, .small {
+  font-size: 0.9rem;
+}
+
+.comment-section {
+  max-height: 23rem;
+}
+
+@media (max-width: 1024px) {
+  .masthead-image {
+    display: none;
+  }
+
+  h1, .h1 {
+    font-size: 2rem;
+  }
+
+  h2, .h2 {
+    font-size: 1.5rem;
+  }
+
+  h3, .h3 {
+    font-size: 1.4rem;
+  }
+
+  h4, .h4 {
+    font-size: 1.3rem;
+  }
+
+  h5, .h5 {
+    font-size: 1.15rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  a {
+    font-size: 0.9rem;
+  }
+
+  small, .small {
+    font-size: 0.9rem;
+  }
+
+  #msg_submit_btn {
+    width: 100%;
+  }
+
+  .table-responsive {
+    height: 150px;
+  }
+
+  #row-uploader {
+    padding: 0;
+  }
+
+  #row-input {
+    position: relative;
+  }
+
+  #img_info {
+    width: 80%;
+  }
+
+  #img_profile {
+    width: 80%;
+  }
+
+  .comment-section {
+    max-height: 15rem;
+  }
+
+  .modal-dialog-scrollable .modal-body {
+    overflow-y: scroll;
+  }
+}
 .menu {
   background: #334257;
   position: fixed;
@@ -50,6 +415,18 @@
   .menu li a {
     font-size: 1.125rem;
   }
+
+  .masthead h1, .masthead .h1 {
+    font-size: 3rem;
+  }
+
+  .masthead p {
+    font-size: 1rem;
+  }
+
+  .masthead-image {
+    display: none;
+  }
 }
 .masthead {
   height: 100vh;
@@ -69,15 +446,17 @@
   font-size: 1.15rem;
 }
 
-@media (max-width: 768px) {
-  .masthead h1, .masthead .h1 {
-    font-size: 3rem;
-  }
-
-  .masthead p {
-    font-size: 1rem;
-  }
+.diorama #section-header h2, .diorama #section-header .h2 {
+  margin: 0;
 }
+.diorama #section-header, .diorama #left_img, .diorama #right_img {
+  color: #CFD8DC;
+}
+
+#appname {
+  font-family: "Audiowide", cursive;
+}
+
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
